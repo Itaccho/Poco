@@ -1,0 +1,27 @@
+@media screen and (max-width: 699px) {
+    .inline-block {
+        display: block;
+    }
+
+
+    .footernodes {
+        background-color: rgb(250, 250, 250);
+        margin: 10px 15px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .inline-block {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+    .footernodes {
+        background-color: rgb(255, 255, 255);
+        margin: 10px 15px;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
