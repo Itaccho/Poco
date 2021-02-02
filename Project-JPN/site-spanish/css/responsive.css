@@ -28,5 +28,11 @@
     header > h1 {
         border-bottom: darkorange 10px solid;
     }
+}
 
+header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
 }
