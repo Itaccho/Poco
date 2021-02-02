@@ -1,0 +1,32 @@
+@media screen and (min-width: 701px) {
+    header {
+        background-color: rgb(255, 140, 0);
+        margin-bottom: 20px;
+    }
+
+    .iblock {
+        display: inline-block;
+    }
+
+    .catch {
+        min-height: 450px;
+    }
+
+    #teachingAreas > p {
+        display: inline-block;
+    }
+
+    #llwphoto {
+        background-image: url(../img/masaaki-komori-qwPSnBvdht.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header > h1 {
+        border-bottom: darkorange 10px solid;
+    }
+
+}

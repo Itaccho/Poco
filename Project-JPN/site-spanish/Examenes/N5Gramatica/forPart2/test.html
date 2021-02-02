@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test N5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<header>
+    <h1>Poco a Poco N5 examen</h1>
+</header>
+<body>
+    <div class="test-wrapper" id="testWrapper">
+        <h2>Selecciona una opción correcta.</h2>
+        <form name="f1">
+            <h5>Q1. este</h5>
+            <span><input type="checkbox" name="trueAns">これ</span>
+            <span><input type="checkbox">それ</span>
+            <span><input type="checkbox">あれ</span>
+            
+            <h5>Q2. ese</h5>
+            <span><input type="checkbox">これ</span>
+            <span><input type="checkbox" name="trueAns">それ</span>
+            <span><input type="checkbox">あれ</span>
+            <h5>Q3. yo</h5>
+            <span><input type="checkbox" name="trueAns">わたし</span>
+            <span><input type="checkbox">あなた</span>
+            <span><input type="checkbox">きみ</span>
+            <h5>Q4. ella</h5>
+            <span><input type="checkbox">かれ</span>
+            <span><input type="checkbox">あなた</span>
+            <span><input type="checkbox">かれし</span>
+            <span><input type="checkbox" name="trueAns">かのじょ</span>
+            <h5>Q5. usted</h5>
+            <span><input type="checkbox">かれ</span>
+            <span><input type="checkbox">どれ</span>
+            <span><input type="checkbox" name="trueAns">あなた</span>
+            <span><input type="checkbox">きみ</span>
+
+            <h5>Q6. porqué</h5>
+            <span><input type="checkbox" name="trueAns">なぜ</span>
+            <span><input type="checkbox">どうやって</span>
+            <span><input type="checkbox">どのように</span>
+            <span><input type="checkbox">なに</span>
+            
+            <h5>Q7. dónde</h5>
+            <span><input type="checkbox">どうやって</span>
+            <span><input type="checkbox">いつ</span>
+            <span><input type="checkbox">なんじ</span>
+            <span><input type="checkbox" name="trueAns">どこ</span>
+            
+            <h5>Q8. a qué hora</h5>
+            <span><input type="checkbox">いつ</span>
+            <span><input type="checkbox" name="trueAns">なんじ</span>
+            <span><input type="checkbox">どこ</span>
+            <span><input type="checkbox">なに</span>
+            
+            <h5>Q9. cómo</h5>
+            <span><input type="checkbox" name="trueAns">どうやって/どう</span>
+            <span><input type="checkbox">どうして</span>
+            <span><input type="checkbox">だれ</span>
+            <span><input type="checkbox">いつ</span>
+            
+            <h5>Q10. cuánto cuesta</h5>
+            <span><input type="checkbox">どんな</span>
+            <span><input type="checkbox">いつから</span>
+            <span><input type="checkbox">いくつ</span>
+            <span><input type="checkbox" name="trueAns">いくら</span>
+
+        </form>
+        <p id="seeAnswer">こたえあわせをする</p>  
+    </div>
+
+    <div id="result" class="resultStyle">
+        <h2>けっか</h2>
+        <p>Resulta:　<span id="countedPoints"></span> puntos</p>
+
+        <div id="approved">
+            <p>¡Felicidades! Sigue el próximo examen. ☟</p>
+            <a href="../test3/test.html">　つぎのテストへいく　</a>
+        </div>
+        <div id="failed">
+            <p>ざんねん！もういちどやりなおしましょう。</p>
+            <input type="button" value="Desafía este examen otra vez" onclick="window.location.reload();" />
+        </div>
+    </div>
+
+    <footer>
+        <div class="footernodes">
+            <h5>サービスメニュー</h5>
+            <p>clase por Zoom</p>
+            <p>選択問題式テスト</p>
+            <p>質問受付（しつもん うけつけ）</p>
+        </div>
+        <div class="footernodes">
+            <h5>ご利用にあたって　para utilizar este servicio</h5>
+            <p><a href="">サービス利用開始と解約</a></p>
+            <p><a href="">約束（やくそく）</a></p>
+            <p><a href="">料金  /  价格</a></p>
+            <p><a href="">支払い方法 / 支付的方法</a></p>
+            <p>お問い合わせ email: <a href="maito:shonesluxores@gmail.com">shonesluxores@gmail.com</a href="maito:"></p>
+        </div>
+        <div class="footernodes">
+            <h5>ソーシャルメディア SNS</h5>
+            <p><a href="https://www.facebook.com/profile.php?id=100011739090361">Facebook</a></p>
+            <p><a href="https://twitter.com/itaccho926">Twitter: @Itaccho926</a></p>
+            <p><a href="https://www.instagram.com/itaccho/">Instagram ID: itaccho</a></p>
+        </div>
+        <div class="footernodes">
+            <h5 id="contact">Contact</h5>
+            <p>LINE ID: ittatcho</p>
+            <p>Skype ID: ittatcho</p>
+            <p>微信 ID: ittatcho</p>
+            <p>Hello Talk account: Itaccho</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
