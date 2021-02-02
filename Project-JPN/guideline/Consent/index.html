@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consent form about the personal information</title>
+</head>
+<body>
+    <header>
+        <h1 class="headerClass" id="goBackToHead">Poco a Poco</h1>
+        <ul class="headerClass">
+            <li><a href="../../homepage/index.html">Top (English)</a></li>
+            <li><a href="../../site-chinese/homepage/pasokonn/index.html">主页 （简体字）</a></li>
+        </ul>
+    </header>
+
+    <div class="container" id="container">
+        <div class="consent">
+            <h2>The policy to protetion of personal information</h2>
+            <h4>SNS</h4>
+            <p>Do not share my SNS IDs shown in the wab page to someone who does not use my service. </p>
+            <h4>The contents of lessons</h4>
+            <p>Do not tell or share somebody else the contents of my classroom, exam and even teaching materials. Do not replicate and sell my teaching materials.</p>
+            <h4>The accounts of Paypal and Transferwise</h4>
+            <p>I tell my students about my personal information important for our sending and receiving money. You are agree to that you never tell anyone the number of my bank account and my address.</p>
+        </div>
+
+        <div id="agreement">
+            <p>Do you agree to this policy?</p>
+             
+            <input type="button" value="Yes" onclick="clickBtn1()" />
+            <input type="button" value="No" onclick="clickBtn2()" />
+        </div>
+         
+    </div>
+
+    <div id="afterConfirmA">
+        <p>Thank you for agreement. If you are interested in my classroom, please enter these pages.</p>
+        <p class="acfp"><a href="../../services/letstalk/letstalk.html">・「いっしょに話（はな）そう！」クラスルーム</a></p>
+        <p class="acfp"><a href="../../services/infoForPPTs/infoForPPTs.html">・Get with no charge the original PowerPoint slides of grammar of N5 and N4</a></p>
+    </div>
+
+    <div id="afterConfirmB">
+        <p>I'm sorry but I cannot offer you my services unless you agree to the policy.</p>
+    </div>
+    <div id="afterAgreed">
+        <p>Please contact me at LINE, Skype or email <a href="maito:shonesluxores@gmail.com">shonesluxores@gmail.com</a> </p>
+        <p><a href="../../conjunctionsPage/index.html">Japanese verb conjunction</a></p>
+    </div>
+
+    <a href="../guide.html">go back to previous page</a>
+
+    <script>
+        const container = document.getElementById('container');
+        function clickBtn1() {
+            const acfpA = document.getElementById('afterConfirmA'); 
+            
+            if (container.style.display = 'block') {
+                acfpA.style.display = 'block';
+                container.style.display = 'none';
+            }
+        }
+
+        function clickBtn2() {
+            const acfpB = document.getElementById('afterConfirmB'); 
+
+            if (container.style.display = 'block') {
+                container.style.display = 'none';
+                acfpB.style.visibility = 'visible';
+            }
+        }
+    </script>
+</body>
+</html>
