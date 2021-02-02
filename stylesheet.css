@@ -45,7 +45,7 @@ p {
     background-color: rgba(253, 237, 13, 0.575);
   }
   #soprojectjp {
-    background-image: url(../prjMainPic/master-wen-z-HK0LVQWzE-unsplash.jpg);
+    background-image: url(prjMainPic/master-wen-z-HK0LVQWzE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 559px;
@@ -53,7 +53,7 @@ p {
     background-color: rgba(255, 255, 255, 0.6);
   }
   #soprojectsp {
-    background-image: url(../prjMainPic/alev-takil-x2Or94kjaqo-unsplash.jpg);
+    background-image: url(prjMainPic/alev-takil-x2Or94kjaqo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 559px;
