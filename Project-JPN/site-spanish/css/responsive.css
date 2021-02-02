@@ -20,7 +20,7 @@
         background-image: url(../img/masaaki-komori-qwPSnBvdht.jpg);
         background-repeat: no-repeat;
         background-size: contain;
-        width: 1200px;
+        width: auto; height: fit-content;
     }
 }
 
