@@ -1,0 +1,83 @@
+@media screen and (min-width: 671px) {
+    header {
+        background-color: rgb(255, 69, 0);
+        padding: 10px;
+    }
+
+    ul > li {
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 20px;
+    }
+
+    .footernodes {
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px 25px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    h1 {
+        border-bottom: 10px solid rgb(255, 69, 0);
+    }
+} 
+
+body {
+    background-color: rgb(117, 243, 33);
+}
+
+.JPN {
+    background-color: rgb(247, 245, 230);
+    padding: 5px 18px;
+}
+
+.midashi {
+    margin: 40px 30px;
+}
+
+a {
+    color: rgb(65, 59, 59);
+    background-color: rgb(252, 243, 116);
+}
+
+h2 {
+    background-color: rgb(248, 128, 184);
+    margin: 50px 20px 20px 10px;
+    padding: 5px 10px;
+    max-width: 250px;
+}
+
+.types {
+    border: rgb(67, 30, 235) 3px solid;
+    border-radius: 8px;
+    margin-top: 70px;
+    padding: 5px 10px;
+}
+
+.cando {
+    border-bottom: rgb(154, 205, 50) 3px solid;
+    padding-right: 10px;
+}
+
+.promise > p {
+    color: rgb(139, 26, 6);
+}
+
+#afterAcuerdo {
+    display: none;
+    background-color: rgb(206, 190, 236);
+}
+
+footer {
+    background-color: rgb(245, 84, 56);
+    padding: 5px 10px;
+    margin-top: 100px;
+}
+
+.footernodes > p {
+    background-color: rgb(248, 241, 241);
+    padding: 3px 5px;
+    font-size: 13px;
+}
