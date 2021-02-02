@@ -1,0 +1,248 @@
+@media screen and (min-width: 671px) {
+  
+  #header-logo {
+    color: #f84020;
+    font-size: 32px;
+    padding: 9px 10px 18px 17px;
+  }
+  
+  .header-wrapper {
+    margin: 5px 0 150px 0;
+    background-image: url(img/sorasak-_UIN-pFfJ7c-unsplash.JPG);
+    background-size: cover;
+    height: 580px;
+    width: auto;
+  }
+  
+  .header-text p {
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    z-index: 3;
+    padding: 20px 0 0 40px;
+    margin: 120px 0;
+  }
+  
+  .header-text-top {
+    text-align: center;
+    padding: 130px 0;
+  }
+  .project-explanation {
+    float: left;
+  }
+  .project-explanation p {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    margin: 30px 50px 20px 10px;
+    width: 40%;
+    padding-left: 25px;
+  }
+  
+  h2 {
+    background-color: #66cccc;
+    padding: 6px;
+  }
+  
+  .following {
+    margin: 0 auto;
+    text-align: center;
+    top: 380px;
+    right: 270px;
+    z-index: 2;
+  }
+  
+  .btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    background-color: rgba(173, 216, 230, 0.6);
+    box-shadow: 2px 4px #66ccff;
+  }
+  
+  .new-register {
+    margin: 0 15px;
+    width: 260px; height: 60px;
+  }
+  .insta {
+    margin: 0 15px;
+    width: 350px; height: 60px;
+  }
+  .btn:active {
+    position: relative;
+    box-shadow: none;
+    top: 2px; left: 4px;
+  }
+  
+  
+  .attractive-points {
+    margin-top: 100px;
+  }
+  
+  .contents {
+    border-width: 2px 0 0 0;
+    border-color: #d3d3d3;
+    border-style: solid;
+    margin: 10px 5px 150px 5px;
+  }
+  
+  .level-lists {
+    color: #fff;
+    width: 170px;
+    height: 60px;
+    padding: 0 17px 20px 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: inline-block;
+  }
+  .ForBeginners {
+    background-color: #0099ff;
+  }
+  .level-N5 {
+    background-color: #0099ff;
+  }
+  .level-N4 {
+    background-color: #ff3366;
+  }
+  .level-N3 {
+    background-color: #ffa500;
+  }
+  .level-N2 {
+    background-color: #ff0000;
+  }
+  .level-N1 {
+    background-color: #9900cc;
+  }
+  
+  .level-name {
+    font-size: 35px;
+  }
+
+  .lessons-wrapper {
+    margin: 0 25px;
+    background-image: url(img/masaaki-komori-qwPSnBvdht.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 10px 40px 10px;
+  }
+  
+  .points-mistakes-lists {
+    margin-top: 170px;
+    height: 400px;
+  }
+  
+  .txtColorWhite {
+    color: #fff;
+    background-color: rgba(000,128,128,0.6);
+    display: inline;
+  }
+  
+  .levels-points p {
+    float: left;
+    background-color: rgba(255,255,255,0.7);
+    margin: 30px;
+    padding: 35px;
+    width: 480px;
+  }
+  
+  .lesson-types {
+    margin: 60px 0 20px 20px;
+  }
+  
+  .attractive-points {
+    margin-top: 60px;
+    margin-right: 140px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .attractive-points-lists {
+    list-style-type: none;
+    line-height: 38px;
+  }
+  
+  .pic-myFace {
+    margin-left: 20px;
+  }
+  
+  #img-float-right {
+    max-width: auto;
+    max-height: 240px;
+  }
+  
+  .form {
+    margin: 120px 220px 120px 20px;
+    border-top: 1px solid #c0c0c0;
+  }
+  
+  .form-txt {
+    margin-left: 30px;
+  }
+  
+  .footer {
+    background-color: #330000;
+    margin: 0 auto;
+    width: 98%;
+    height: 80px;
+  }
+  
+  .footer-txts {
+    margin: 20px 0 0 20px;
+    color: #fff;
+  }
+}
+
+
+.body {
+  width: 100%;
+  font-family: Verdana, sans-serif;
+}
+a {
+  color: default;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(250, 242, 232);
+}
+
+header {
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: rgb(250, 172, 4);
+}
+
+.logo-array {
+  color: #e92828;
+}
+
+.header-logo-lists {
+  float: right;
+  padding: 10px 20px;
+}
+
+.header-logo-lists li {
+  display: inline-block;
+  color: #fff;
+  padding-right: 20px;
+}
+
+#logIn {
+  background-color: #a9a9a9;
+  color: #fff;
+  padding: 10px;
+}
+
+#close-img {
+  cursor: pointer;
+}
+.img-hided {
+  padding: 10px;
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  z-index: 5;
+  top: 1%;
+  left: 40%;
+}
