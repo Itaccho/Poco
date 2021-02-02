@@ -32,4 +32,11 @@
     header > h1 {
         border-bottom: darkorange 10px solid;
     }
+    
+    #menuBtn {
+        position: fixed;
+        z-index: 3;
+        top: 10px;
+        left: 80%;
+    }
 }
