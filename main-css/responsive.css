@@ -9,6 +9,10 @@
         margin: 10px 15px;
         display: block;
     }
+    
+    .soproject > p {
+        width: fit-content;
+    }
 }
 
 @media screen and (min-width: 700px) {
