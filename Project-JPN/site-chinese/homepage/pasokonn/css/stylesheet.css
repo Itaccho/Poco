@@ -1,0 +1,84 @@
+body {
+    font-family: "游ゴシック", Helvetica , sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(129, 126, 126);
+    border-bottom: rgb(53, 2, 53) solid 1px;
+}
+.dataofproblem {
+    background-color: rgb(203, 201, 204);
+    padding: 10px;
+}
+
+.levelp {
+    color: white;
+}
+
+.container-wrapper {
+    margin-left: 3%;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+#kyotop {
+    float: right;
+    width: 390px;
+    height: auto;
+}
+
+#text16px {
+    font-size: 16px;
+}
+
+.line-cutBorder {
+    border: solid 2px rgb(79, 90, 102);
+}
+
+.teaching-ways {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-bottom: 80px;
+}
+
+.teaching-ways > p {
+    text-decoration: 4px solid rgb(250, 168, 96);
+    color: rgb(46, 139, 87);
+}
+
+.conditions {
+    color: rgb(21, 77, 230);
+}
+
+footer {
+    margin: 15px;
+    background-color: rgb(245, 222, 179);
+}
+
+.footernodes {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.footernodes > p {
+    background-color: seashell;
+    margin: 10px 40px;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.footer-inline-block {
+    display: inline-block;
+    margin: 40px;
+}
+
+#back-clr {
+    background-color: rgb(213, 241, 87);
+    padding: 2px 5px;
+}
