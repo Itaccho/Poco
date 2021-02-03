@@ -11,6 +11,8 @@
             pass.value == '999999') {
             document.getElementById('afterCorrect').style.display = 'block';
             document.getElementById('expl').style.display = 'none';
+            cont.style.display = 'none';
+            alert('パスワード入力ありがとうございます。下のページをクリックしてください。');
         } else {
             cont.innerHTML = 'パスワードが違います';
             cont.style.backgroundColor = 'red';
