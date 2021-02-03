@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+h1 {
+    background-color: rgb(255, 248, 220);
+}
+
+h2 {
+    background-color: rgb(213, 238, 213);
+}
+
+.content-wrapper {
+    background-color: darkblue;
+}
+
+.explainment-text {
+    margin: 5px;
+    padding: 7px;
+}
+
+.text-wrapper {
+    background-color: rgb(234, 250, 234);
+}
+
+.text-wrapper > p {
+     border-bottom: 2px solid rgb(37, 37, 16);
+     padding: 15px 0;
+}
+
+.text-wrapper > p:hover {
+    padding-left: 15px;
+
+    transition-duration: 0.7s;
+}
+
+ul > li:hover {
+    text-shadow: 2px darkslateblue;
+    padding-left: 15px;
+
+    transition-duration: 0.7s;
+    
+}
