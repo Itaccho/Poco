@@ -1,0 +1,60 @@
+#VCbtn {
+    border-bottom: rgb(100, 9, 100) solid 2px;
+}
+#VCbtnid {
+    display: inline;
+}
+
+a:active {
+    background-color: rgb(139, 0, 0) !important;
+    color: #fff !important;
+    border-bottom: rgb(233, 150, 122) solid 5px;
+}
+
+h4 {
+    background-color: rgb(139, 0, 0);
+    color: #fff;
+    border-bottom: rgb(233, 150, 122) solid 5px;
+    padding: 7px 15px;
+    margin: 10px 2px;
+    width: 350px;
+    text-align: center;
+}
+
+.font-20 {
+    font-weight: 900;
+}
+
+#pic_hannah {
+    width: 250px;
+    height: auto;
+}
+
+#VCbtn {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    user-select: none;
+}
+
+#VCbtnid {
+    display: none;
+}
+
+@media screen and (min-width: 801px) {
+    ul {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    table {
+        display: inline-block;
+        margin: 10px 30px;
+    }
+
+    .inline-block1 {
+        display: inline-block;
+        vertical-align: top;
+        width: 500px;
+    }
+}

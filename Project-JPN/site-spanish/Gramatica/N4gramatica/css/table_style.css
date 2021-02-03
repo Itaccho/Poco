@@ -1,0 +1,18 @@
+th {
+    border: darkgreen solid 1px;
+    padding: 4px 8px;
+    margin: 1px;
+}
+
+tr {
+    border: rgb(12, 143, 136) 1px solid;
+}
+
+td {
+    padding: 4px 8px;
+    border-bottom: rgb(94, 45, 8) 1px solid;
+}
+
+#table1 > tr {
+    border: darkgreen solid 1px;
+}
