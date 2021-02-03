@@ -1,0 +1,86 @@
+:root {
+    --my-hue: 100;
+}
+
+header {
+    background-color: darkorange;
+    padding: 15px 10px;
+}
+
+body {
+    font-size: 14px;
+    background-color: rgb(55, 235, 145);
+}
+
+a {
+    color: rgb(34, 34, 248);
+}
+
+.container {
+    margin: 30px auto;
+    width: 500px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* 親要素menuに対してli要素を横並びにしてあげる */
+    display: flex;
+}
+
+.menu li a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    color: #333;
+    text-decoration: none;
+
+    border-radius: 4px;
+}
+
+.menu li a.active {
+    /* cssの変数宣言は必ず--から始める */
+    --colorBlack: rgb(49, 33, 33);
+    background: var(--colorBlack);
+    color: #fff;
+}
+/* activeではないli要素に対してhoverが効くようにする */
+.menu li a:not(.active):hover {
+    opacity: 0.5;
+    transition: opacity 0.4s;
+}
+
+.content.active {
+    background: rgb(44, 43, 48);
+    color: #fff;
+    min-height: 150px;
+    padding: 12px;
+    border-radius: 5px;
+    /* activeのcontent要素は表示状態にしたい */
+    display: block;
+}
+
+/* active以外のcontent要素を非表示にする */
+.content {
+    display: none;
+}
+
+footer {
+    background-color: rgb(255, 145, 0);
+    font-size: 13px;
+    margin-top: 100px;
+}
+
+.footernodes {
+    padding: 10px;
+    margin: 15px 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footernodes > p {
+    background-color: #fff;
+    padding: 2px 5px;
+}

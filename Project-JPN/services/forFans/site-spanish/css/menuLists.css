@@ -1,0 +1,61 @@
+@media screen and (min-width: 701px) {
+    #menuBtn {
+        width: 100px;
+        margin: 0 30px;
+    }
+
+    .menu-lists-cover {
+        position: fixed;
+        top: 30%;
+        left: 37%;
+        z-index: 4;
+        background-color: white;
+        box-shadow: rgb(211, 96, 211) 2px 2px 2px;
+        padding: 20px 10px;
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    #menuBtn {
+        width: 50px;
+        position: fixed;
+        z-index: 3;
+        top: 0px;
+        left: 1px;
+    }
+
+    .menu-lists-cover {
+        position: fixed;
+        top: 15%;
+        left: 6%;
+        z-index: 4;
+        background-color: white;
+        box-shadow: rgb(219, 160, 219) 2px 2px 2px;
+        padding: 20px 10px;
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+    }
+}
+
+
+#menuLists {
+    display: none;
+}
+
+.menuBtn {
+    background-color: rgb(238, 215, 238);
+    border: springgreen solid 1px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-lists-cover > li {
+    margin: 30px 0;
+    list-style-position: inside;
+    background-color: rgb(250, 183, 205);
+}

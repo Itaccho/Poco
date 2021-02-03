@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 233, 215);
+    user-select: none;
+}
+
+div {
+    padding: 7px 10px;
+}
+
+a {
+    color: rgb(68, 56, 139);
+    margin: 4px 0;
+    padding: 3px 30px;
+    text-decoration: pink solid 1px;
+}
+a:hover {
+    border-bottom: rgb(44, 44, 42) 1px solid;
+}
+
+p {
+    padding: 5px 10px;
+}
+
+.catchTextContents {
+    background-color: rgba(108, 116, 7, 0.678);
+    color: #fff;
+    max-width: 680px;
+}
+
+.joinclub > p {
+    border: rgb(158, 216, 216) solid 1px;
+    border-radius: 5px;
+    background-color: paleturquoise;
+    position: relative;
+    width: 130px;
+    text-align: center;
+    box-shadow: rgb(132, 182, 182) 2px 3px;
+}
+
+.lessonContent {
+    margin: 50px 5px;
+}
+
+.level-lists-wrapper {
+    color: rgb(253, 251, 247);
+}
+
+.level > h4 {
+    background-color: rgba(245, 240, 115, 0.933);
+    width: 200px;
+    text-align: center;
+}
+.level > p {
+    background-color: rgba(83, 189, 201, 0.85);
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+#correc {
+    background-color: rgb(178, 253, 104);
+}
+
+
+footer {
+    background-color: rgb(255, 145, 0);
+    font-size: 13px;
+    margin-top: 100px;
+}
+
+.footernodes {
+    padding: 10px;
+    margin: 15px 40px;
+    display: inline-block;
+}
+
+.footernodes > p {
+    background-color: #fff;
+}
