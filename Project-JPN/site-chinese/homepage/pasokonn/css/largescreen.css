@@ -52,6 +52,13 @@
         margin-bottom: 100px;
         min-height: 800px;
     }
+    #dot-none {
+        list-style: none;
+        margin-top: 80px;
+        background-image: url(../img/jase-bloor-jnUCkT05X3Q-unsplash.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
     #level {
         font-size: 36px;
@@ -119,10 +126,3 @@
         font-size: 22px;
     }
 }
-#dot-none {
-        list-style: none;
-        margin-top: 80px;
-        background-image: url(../img/jase-bloor-jnUCkT05X3Q-unsplash.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
