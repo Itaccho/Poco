@@ -1,0 +1,32 @@
+@media screen and (min-width: 801px) {
+    header {
+        background-color: ivory;
+        border-bottom: rgb(0, 174, 255) solid 15px;
+    }
+
+    .headerTab {
+        display: inline-block;
+    }
+    #headerLists {
+        display: inline-block;
+    }
+    #headerLists > li {
+        display: inline-block;
+        margin: 5px 10px;
+        list-style: none;
+    }
+    .containers {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .pointer {
+        cursor: pointer;
+    }
+
+    .footernodes {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 40px;
+    }
+}
