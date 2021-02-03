@@ -126,6 +126,10 @@
     #dot-none {
         list-style: none;
         margin: 15px 1px 3px 0px;
+        background-image: url(img/jase-bloor-jnUCkT05X3Q-unsplash.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-width: 350px;
     }
 
     #level {
