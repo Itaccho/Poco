@@ -65,6 +65,11 @@ h2 {
     color: rgb(139, 26, 6);
 }
 
+#afterAcuerdo {
+    display: none;
+    background-color: rgb(206, 190, 236);
+}
+
 footer {
     background-color: rgb(245, 84, 56);
     padding: 5px 10px;
