@@ -39,8 +39,7 @@
     }
     .mgn-left {
         margin-bottom: 100px;
-            /* background-image: url(img/lefteris-kallergis-AfXlY41lwvQ-unsplash.jpg); */
-        background-image: url(https://github.com/Itaccho/Poco/raw/main/lefteris-kallergis-AfXlY41lwvQ-unsplash.jpg?raw=true.jpg);
+        background-image: url(img/lefteris-kallergis-AfXlY41lwvQ-unsplash.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         min-height: 800px;
