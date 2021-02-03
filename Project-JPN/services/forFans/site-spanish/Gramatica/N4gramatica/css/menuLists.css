@@ -1,0 +1,114 @@
+@media screen and (min-width: 1200px) {
+    header > h1 {
+        margin-left: 20px;
+    }
+    .inline-block {
+        display: inline-block;
+        vertical-align: top;
+        margin: 30px;
+    }
+
+    #menuBtn {
+        width: 110px;
+        position: fixed;
+    }
+    .iblock {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    header {
+        background-color: rgb(255, 140, 0);
+    }
+    .opacity {
+        font-size: 14px;
+    }
+    #menuBtn {
+        width: 100px;
+        position: fixed;
+    }
+    .iblock {
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .opacity {
+        font-size: 11px;
+    }
+    #menuBtn {
+        width: 50px;
+        display: block;
+        position: fixed;
+    }
+}
+
+h1 {
+    margin-left: 130px;
+}
+
+#xBtn {
+    background-color: rgb(250, 206, 95);
+    border-radius: 10px;
+    padding: 10px 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#menuLists {
+    display: none;
+}
+
+.menuBtn {
+    background-color: rgb(22, 148, 85);
+    border: rgb(21, 88, 5) solid 1px;
+    border-radius: 4px;
+    padding: 6px 8px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    z-index: 3;
+
+    box-shadow: rgb(13, 105, 59) 3px 3px;
+}
+.menuBtn:hover {
+    background-color: rgba(91, 238, 83, 0.748);
+}
+.menuBtn:active {
+    top: 11px; left: 13px;
+    box-shadow: none;
+    background-color: rgb(12, 119, 30);
+    color: #fff;
+}
+
+
+.menu-lists-cover {
+    position: fixed;
+    top: 15%;
+    left: 27%;
+    z-index: 4;
+    background-color: white;
+    box-shadow: rgb(216, 191, 216) 3px 3px 2px;
+    padding: 20px 10px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.menu-lists-cover > li {
+    margin: 30px 0;
+    list-style-position: inside;
+    background-color: rgb(231, 243, 202);
+}
+
+.menu-lists-cover > a {
+    color: rgb(1, 77, 1) !important;
+}
+
+.komidashi {
+    background-color: rgba(207, 252, 218, 0.809);
+    border-radius: 10px;
+    padding: 10px;
+    list-style-position: inside;
+}

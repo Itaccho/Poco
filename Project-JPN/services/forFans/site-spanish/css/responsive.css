@@ -1,0 +1,75 @@
+@media screen and (min-width: 701px) {
+    header {
+        background-color: rgb(255, 140, 0);
+        margin-bottom: 20px;
+
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        top: 0;
+    }
+
+    .iblock {
+        display: inline-block;
+    }
+
+    #catchPhoto {
+        background-image: url(../img/jason-leung-jp3Wt6O0v7E-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 130px;
+        margin-bottom: 40px;
+    }
+
+    .catch {
+        min-height: 450px;
+    }
+
+    #teachingAreas > p {
+        display: inline-block;
+    }
+
+    #llwphoto {
+        background-image: url(../img/masaaki-komori-qwPSnBvdht.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: auto; height: fit-content;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header > h1 {
+        border-bottom: darkorange 10px solid;
+        margin-left: 7%;
+    }
+    
+    #opacity {
+        font-size: 12px;
+    }
+
+    #h2catch {
+        background-image: url(../img/jason-leung-jp3Wt6O0v7E-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 5px;
+        width: 75%;
+        height: 100px;
+        background-color: rgb(255, 233, 215);
+    }
+
+    #llwphoto > h2 {
+        background-image: url(../img/masaaki-komori-qwPSnBvdht.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: auto; height: 170px;
+    }
+
+    #jklpri {
+        display: block;
+    }
+
+    footer > p {
+        font-size: 11px;
+    }
+}
+
