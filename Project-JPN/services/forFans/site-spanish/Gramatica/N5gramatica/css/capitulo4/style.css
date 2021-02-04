@@ -1,0 +1,8 @@
+ol {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    border-bottom: rgb(199, 195, 195) solid 2px;
+}

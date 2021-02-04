@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(255, 233, 215);
+}
+
+div {
+    padding: 7px 10px;
+}
+
+a {
+    background-color: rgb(54, 58, 58);
+    color: #fff;
+    margin: 4px 0;
+    padding: 4px 8px;
+}
+
+li {
+    margin: 4px 1px;
+}
+
+.A-volver {
+    background-color: rgb(63, 42, 42);
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+h4 {
+    padding: 6px 10px;
+}
+
+p {
+    padding: 5px 10px;
+}
+
+.midashi {
+    background-color: rgb(230, 232, 248);
+    margin-top: 100px;
+}
+
+.container {
+    border-top: rgb(16, 49, 22) dotted 10px;
+    padding-top: 20px;
+}
+
+.text-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px;
+    padding-left: 16px;
+}
+
+.back-color-white {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px;
+    padding-left: 16px;
+}
+
+.vvv {
+    background-color: rgb(6, 114, 221);
+    color: rgb(247, 243, 243);
+    margin: 10px 5px;
+}
+.te {
+    background-color: rgb(180, 255, 67);
+}
+.ddd > ul {
+    display: inline-block;
+    vertical-align: top;
+}
+.font-italic {
+    font-style: italic;
+}
+.pStyle {
+    background-color: rgb(245, 153, 202);
+}
+.kaisetsu {
+    background-color: rgb(3, 74, 141);
+    color: #fff;
+}
+.lists-raw > li {
+    margin-right: 30px;
+    color: floralwhite;
+    list-style: none;
+    display: inline;
+}
+.revisar {
+    background-color: aqua;
+}
+
+.gotoexam {
+    background-color: rgb(131, 7, 131);
+    color: #fff;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(255, 145, 0);
+    font-size: 13px;
+    margin-top: 100px;
+}
+
+.footernodes {
+    padding: 10px;
+    margin: 15px 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footernodes > p {
+    background-color: #fff;
+}
