@@ -18,7 +18,15 @@ a:hover {
 }
 
 li {
-    margin: 4px 1px;
+    margin: 5px 1px;
+}
+li:hover {
+    color: darkred;
+    font-size: 800;
+}
+
+pre {
+    font-size: 20px;
 }
 
 .A-volver {
