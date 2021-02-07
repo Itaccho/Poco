@@ -22,7 +22,7 @@ li {
 }
 li:hover {
     color: darkred;
-    font-size: 800;
+    font-weight: 800;
 }
 
 pre {
