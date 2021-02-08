@@ -2,12 +2,39 @@
     #menuBtn {
         width: 90px;
     }
+
+    .menu-lists-cover {
+        position: fixed;
+        top: 26%;
+        left: 24%;
+        z-index: 4;
+        background-color: white;
+        box-shadow: rgb(216, 191, 216) 2px 2px 2px;
+        padding: 20px 10px;
+        height: 300px;
+        border-radius: 10px;
+    }
 }
 
 
 @media screen and (max-width: 700px) {
     #menuBtn {
         width: 50px;
+        position: fixed !important;
+        z-index: 4;
+        top: 0% !important; left: 0% !important;
+    }
+
+    .menu-lists-cover {
+        position: fixed;
+        top: 15%;
+        left: 7%;
+        z-index: 4;
+        background-color: white;
+        box-shadow: rgb(216, 191, 216) 2px 2px 2px;
+        padding: 20px 10px;
+        height: 300px;
+        border-radius: 10px;
     }
 }
 
@@ -23,18 +50,6 @@
     text-align: center;
     margin-left: 5%;
     cursor: pointer;
-}
-
-.menu-lists-cover {
-    position: fixed;
-    top: 26%;
-    left: 24%;
-    z-index: 4;
-    background-color: white;
-    box-shadow: rgb(216, 191, 216) 2px 2px 2px;
-    padding: 20px 10px;
-    height: 300px;
-    border-radius: 10px;
 }
 
 .menu-lists-cover > li {
