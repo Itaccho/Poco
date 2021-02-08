@@ -2,6 +2,12 @@
     #menuBtn {
         width: 90px;
     }
+    header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+　　}
 }
 
 
@@ -9,13 +15,6 @@
     #menuBtn {
         width: 50px;
     }
-}
-
-header {
-    position: fixed;
-    z-index: 3;
-    width: 100%;
-    top: 0;
 }
 
 #xBtn {
@@ -35,7 +34,6 @@ header {
     border: springgreen solid 1px;
     border-radius: 4px;
     text-align: center;
-    margin-left: 5%;
     cursor: pointer;
     user-select: none;
 }
