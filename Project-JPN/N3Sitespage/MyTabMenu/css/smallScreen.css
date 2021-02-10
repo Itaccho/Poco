@@ -4,7 +4,7 @@
     }
 
     .content {
-        width: max-content;
+        width: 250px;
     }
 
     #screenL {
@@ -13,6 +13,9 @@
     #screenl {
         display: block;
         margin: 10px 0 50px 15px;
+    }
+    #firstMenu {
+        display: none;
     }
 
 
@@ -43,8 +46,8 @@
         max-width: 180px;
         /* position */
         position: absolute;
-        top: 157px;
-        left: 90px;
+        top: 165px;
+        left: 40px;
         /* border */
         border: 2px solid rgb(43, 48, 48);
         border-radius: 13px;
