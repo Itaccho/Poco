@@ -1,0 +1,47 @@
+header {
+    background-color: rgb(121, 163, 240);
+    color: #fff;
+    padding: 10px;
+}
+#forHome {
+    margin-top: 10px;
+}
+
+a {
+    background-color: rgb(114, 110, 110);
+    color: #fff;
+    text-align: center;
+    text-decoration: wavy;
+    padding: 4px 10px;
+}
+a:hover {
+    color: rgb(255, 248, 47);
+}
+
+#title {
+    border-bottom: maroon dashed 8px;
+    margin-bottom: 20px;
+}
+
+.text-container > p {
+    padding: 10px 15px;
+    line-height: 27px;
+}
+
+ul {
+    list-style-position: inside;
+    background-color: rgb(242, 242, 242);
+    padding: 20px 25px;
+}
+
+@media screen and (min-width: 671px) {
+    .iblock {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 20px;
+    }
+    pre {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+}
