@@ -1,0 +1,93 @@
+body {
+    font-family: "游ゴシック", Helvetica , sans-serif;
+    margin-left: 10px;
+    background-color: rgb(97, 178, 221);
+}
+
+a {
+    text-decoration: solid rgb(8, 8, 8);
+    color: black;
+    border-bottom: 2px solid rgb(12, 12, 39);
+    margin: 6px;
+    padding: 5px 20px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h3 {
+    background-color: rgb(183, 248, 177);
+    box-shadow: rgb(81, 172, 72) 2px 3px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.back-color-white {
+    background-color: rgb(241, 238, 231);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.back-color-white > p {
+    background-color: rgb(218, 138, 96);
+    padding: 15px 60px;
+    text-align: center;
+    opacity: 0.6;
+    font-weight: 600;
+    display: block;
+}
+
+.back-color-white > p:hover {
+    background-color: rgb(238, 204, 162);
+     opacity: 1.0;
+     font-weight: 400;
+     transition-duration: 0.2s;
+}
+
+.raw-lists > li {
+    border: 2px solid rgb(61, 40, 40);
+    display: inline;
+    list-style: none;
+}
+
+.wenti > p {
+    padding: 10px 20px;
+    margin: 5px;
+    border: solid 2px rgb(250, 90, 61);
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+
+.grammarContainers {
+    max-width: 400px;
+}
+
+.gotoN4 {
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: darkslategray;
+    margin: 0 70% 5px 0;
+}
+.a-white {
+    color: #fff;
+    display: block;
+}
+
+
+footer {
+    background-color: rgb(243, 149, 115);
+    padding: 10px;
+}
+
+.footernodes > p {
+    background-color: seashell;
+    margin: 10px 20px;
+    padding: 3px 5px;
+    text-align: center;
+}

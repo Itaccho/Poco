@@ -1,0 +1,121 @@
+body {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: underline black;
+    color: brown;
+}
+a:hover {
+    color: rgb(214, 61, 61);
+}
+
+li {
+    list-style: none;
+    padding: 15px 10px;
+}
+
+p {
+    padding: 10px;
+    border: rgb(12, 34, 73) solid 2px;
+}
+
+@media screen and (min-width: 670px) {
+    header {
+        border-bottom: coral solid 10px;
+        padding-bottom: 15px;
+    }
+
+    .header {
+        display: inline-block;
+    }
+
+    .headerTab > li {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .containers {
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px 40px;
+        max-width: 30%;
+    }
+
+    .footernodes {
+        display: inline-block;
+        margin: 20px 20px 40px 30px;
+    }
+}
+
+h1 {
+    margin: 2px 25px 5px 3px;
+}
+
+h2 {
+    border: cornflowerblue solid 1px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+h4 {
+    border-bottom: darkblue solid 2px;
+    padding: 2px;
+    margin-top: 70px;
+}
+
+.grammar-explain-container > li {
+    color: darkgreen;
+}
+
+.k {
+    font-size: 18px;
+    color: rgb(48, 47, 37);
+    border: darkmagenta solid 2px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.misExamples {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin: 10px 8px 40px 8px;
+}
+#misEx {
+    display: none;
+}
+
+.misExamples > p {
+    border: none;
+    font-weight: 900px;
+    background-color: rgb(105, 128, 20);
+}
+
+/* 例を見るの部分 */
+#showExamples {
+    color: turquoise;
+    cursor: pointer;
+    padding: 0 30px;
+}
+.red {
+    color: rgb(212, 16, 16);
+}
+/*  */
+#gototop {
+    margin-left: 80%;
+    margin-top: 10%;
+    max-width: 130px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgb(248, 136, 95);
+    border-radius: 7px;
+    padding: 20px;
+    min-height: 80px;
+}
+
+footer > a {
+    margin: 20px 30px;
+}

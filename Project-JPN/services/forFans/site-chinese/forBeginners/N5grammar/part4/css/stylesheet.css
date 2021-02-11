@@ -1,0 +1,106 @@
+header {
+    border-bottom: rgb(240, 115, 13) solid 20px;
+}
+
+li {
+     margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: slategray;
+    border-bottom: rgb(12, 45, 78) solid 1px;
+}
+
+.header-inlineBox {
+    display: inline-block;
+}
+
+.headerLists > li {
+    list-style: none;
+    margin: 10px 15px;
+    display: inline-block;
+}
+
+.lists-align > li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.container {
+    margin: 10px 20px;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.explainment-text {
+    border-top: blue 4px solid;
+    margin: 30px 10px;
+}
+
+.text-content {
+    border-top: slateblue solid 3px;
+    margin-top: 40px;
+}
+
+.text-wrapper > p {
+    margin: 30px 0 10px 5px;
+}
+
+.wenti > p {
+     background-color: rgb(245, 237, 168);
+     border: 2px solid rgb(255, 72, 0);
+     padding: 10px;
+     margin: 5px;
+}
+.wenti > li:hover {
+    box-shadow: 1px 1px rgb(58, 56, 56);
+}
+
+.joshushi > p {
+    display: inline-block;
+    border: yellow solid 2px;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 5px;
+}
+li:hover {
+    background-color: blanchedalmond;
+    transition-delay: 0.2s;
+}
+
+.check {
+    background-color: rgb(236, 48, 86);
+    color: white;
+    padding: 5px;
+}
+
+.centerline {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+footer {
+    background-color: rgb(236, 135, 99);
+}
+
+.footernodes {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.footernodes > p {
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media screen and (min-width: 671px) {
+    .headlistcontainer {
+        display: inline-block;
+        margin-left: 20px;
+    }
+}

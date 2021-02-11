@@ -1,0 +1,35 @@
+@media screen and (min-width: 810px) {
+    h1 {
+        display: inline-block;
+    }
+    #p2buttom {
+        display: none;
+    }
+    .footernodes {
+        display: inline-block;
+        margin: 10px;
+        vertical-align: top;
+        font-size: 13px;
+    }
+
+    #p2 {
+        display: none;
+    }
+
+    #top2nd {
+        display: inline-block;
+    }
+
+    .inline-block {
+        display: inline-block;
+        margin: 20px 49px;
+        vertical-align: top;
+    }
+
+    #container1 {
+        max-width: 350px;
+    }
+    .containers1 {
+        max-width: 900px;
+    }
+}
