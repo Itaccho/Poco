@@ -1,0 +1,89 @@
+@media screen and (min-width: 810px) {
+    header {
+        border-bottom: rgb(255, 140, 0) solid 18px;
+        margin-left: 5px;
+    }
+    .header-inlineBox {
+        display: inline-block;
+    }
+    ul > li {
+        display: inline-block;
+        margin: 2px 7px;
+    }
+    .footernodes {
+        display: inline-block;
+        margin: 10px 40px;
+        vertical-align: top;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    header {
+        margin: 2px 0 3px 4px;
+    }
+    .header-inlineBox {
+        display: block;
+    }
+    .footernodes {
+        display: block;
+        margin: 10px;
+        font-size: 13px;
+    }
+}
+
+a {
+    color: rgb(3, 3, 97);
+}
+
+.test-contents {
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: rgb(245, 245, 220);
+    vertical-align: top;
+}
+
+#seeAnswers2 {
+    cursor: pointer;
+    background-color: rgb(85, 59, 26);
+    color: #fff;
+    padding: 15px 20px;
+    margin: 35px 0 20px 10px;
+    max-width: 30%;
+    text-align: center;
+}
+
+#nexttest {
+    background-color: rgb(160, 206, 160);
+    display: none;
+}
+#stophere {
+    background-color: rgb(138, 34, 190);
+    display: none;
+}
+.afterTest {
+    padding: 20px 30px;
+    margin: 20px 0 40px 20px;
+}
+.afterTest > a {
+    color: #fff;
+}
+.gotoNext {
+    background-color: rgb(228, 222, 222);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#sore {
+    display: none;
+}
+
+footer {
+    background-color: rgb(255, 140, 0);
+    padding: 10px;
+}
+
+.footernodes > p {
+    background-color: #fff;
+    padding: 1px 7px;
+    margin: 4px 2px;
+}

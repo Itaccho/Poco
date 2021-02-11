@@ -1,0 +1,128 @@
+@media screen and (min-width: 670px) {
+    header {
+        border-bottom: rgb(240, 115, 13) solid 20px;
+    }
+    
+    .header-inlineBox {
+        display: inline-block;
+    }
+    
+    .lists-align > li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    .container {
+        margin: 10px 20px;
+        padding-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #open {
+        display: none;
+    }
+
+
+    .footernodes {
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    header {
+        background-color: rgb(250, 136, 6);
+    }
+    #open {
+        max-width: 50px;
+    }
+    #menuInlineBox {
+        display: none;
+        color: white;
+        user-select: none;
+    }
+
+    .lists-align > li {
+        margin: 20px 15px;
+        list-style: none;
+    }
+
+}
+
+@media screen and (min-width: 810px) {
+    .footernodes {
+        display: inline-block;
+        margin: 10px;
+        vertical-align: center;
+        font-size: 14px;
+    }
+}
+
+body {
+    background-color: rgb(247, 77, 196);
+}
+
+a {
+    text-decoration: slategray;
+    color: rgb(206, 227, 248);
+    background-color: rgba(106, 136, 136, 0.7);
+    padding: 5px 10px;
+    display: block;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+}
+
+div {
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+
+p {
+    background-color: rgb(245, 239, 188);
+    padding: 4px 20px;
+}
+
+form {
+    background-color: rgb(160, 157, 157);
+    padding: 10px;
+}
+
+form > p {
+    background-color: rgb(212, 245, 212);
+    padding-top: 50px;
+}
+
+input {
+    width: 430px;
+}
+
+#seeAnswer {
+    background-color: rgb(46, 78, 78);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 80px;
+    border-radius: 5px;
+    box-shadow: rgb(31, 53, 53) 1px 2px 1px;
+    cursor: pointer;
+}
+
+/* result area */
+#result, #approved, #failed {
+    display: none;
+}
+
+#failed > p {
+    background-color: rgb(60, 250, 253);
+}
+/* result area end */
+
+footer {
+    background-color: rgb(250, 164, 4);
+    padding: 8px;
+}
