@@ -1,0 +1,121 @@
+#afterCorrect {
+    display: none;
+}
+
+@media screen and (min-width: 671px) {
+    header {
+        border-bottom: coral solid 10px;
+    }
+
+    .headerTab {
+        display: inline-block;
+        margin: 2px 8px;
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    #passForm {
+        margin: 130px 0 400px 560px;
+    }
+
+    .containers {
+        display: inline-block;
+    }
+
+    .footernodes {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 20px;
+    }
+}
+
+body {
+    margin: 0 15px;
+    user-select: none;
+}
+
+h2 {
+    border: cornflowerblue solid 1px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+h4 {
+    border-bottom: darkblue solid 2px;
+    padding: 2px;
+    margin-top: 70px;
+}
+
+a {
+    text-decoration: thistle solid 1px;
+    color: rgb(107, 105, 107);
+    border-bottom: rgb(7, 20, 59) 1px solid;
+}
+
+.grammar-explain-container > li {
+    display: block;
+    padding: 10px 5px;
+    margin: 4px;
+    background-color: rgb(3, 85, 14);
+    color: #fff;
+}
+
+#grammarExplain {
+    display: none;
+}
+
+.point {
+    background-color: rgb(206, 8, 8);
+    color: white;
+    padding: 5px 15px;
+    max-width: 60px;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+    background-color: rgb(248, 236, 212);
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    width: fit-content;
+    min-width: 60px;
+}
+
+.block > li {
+    display: block;
+}
+
+#gec {
+    font-weight: 900px;
+}
+
+.weight28 {
+    font-weight: 28px;
+}
+
+.fontthick {
+    font-weight: 1000;
+}
+
+.kkkvvv {
+    margin: 15px 30px;
+}
+
+footer {
+    font-size: 12px;
+    background-color: rgb(248, 116, 8);
+    padding: 10px;
+    margin: 130px 0 10px 0;
+}
+
+.footernodes > p {
+    background-color: seashell;
+    padding: 3px 5px;
+    text-align: center;
+    margin: 10px 24px;
+}
