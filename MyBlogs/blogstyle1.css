@@ -23,9 +23,15 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.text-container {
+    padding: 15px;
+    margin: 15px;
+}
+
 .text-container > p {
     padding: 10px 15px;
-    line-height: 27px;
+    line-height: 28px;
+    text-indent: 1em;
 }
 
 ul {
