@@ -12,7 +12,8 @@ header {
     position: relative;
     top: 10px;
     border: rgb(124, 103, 48) dashed 2px;
-    padding: 5px 10px;  
+    padding: 5px 10px;
+    user-select: none;
 }
 .pointer {
     cursor: pointer;
