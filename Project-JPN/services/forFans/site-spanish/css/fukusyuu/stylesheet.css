@@ -1,0 +1,73 @@
+@media screen and (min-width: 1200px) {
+    .fukusyuuiBlock {
+        display: inline-block !important;
+        vertical-align: top;
+        width: 40%;
+    }
+
+    .fukusyuAnswerp {
+        margin-top: 1100px;
+    }
+    
+}
+
+@media screen and (max-width: 1199px) {
+    .fukusyuuiBlock {
+        display: block;
+        width: 260px;
+        font-size: 12px;
+    }
+}
+
+.answerContents {
+    display: none;
+}
+
+h3 {
+    margin-top: 80px;
+}
+
+#countPoints {
+    background-color: rgb(245, 117, 245);
+    margin: 40px 40px 10px 40px;
+    border-radius: 15px;
+    width: 300px;
+}
+#countPoints:hover {
+    box-shadow: rgb(116, 2, 116) 2px 2px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+#showPoints {
+    background-color: rgb(112, 75, 24);
+    padding: 5px 10px;
+}
+
+.seeAnswerBtn {
+    display: block;
+    margin-bottom: 80px;
+    border: palegreen solid 2px;
+    background-color: rgb(163, 235, 62);
+    border-radius: 8px;
+    padding: 7px 15px;
+    width: fit-content;
+    cursor: pointer;
+}
+.seeAnswerBtn:hover {
+    background-color: rgb(233, 166, 41);
+}
+
+/* modal */
+.minusBtn {
+    display: none;
+}
+.seeAnswerBtn > span {
+    color: #fff;
+    margin: 10px;
+}
+.seeAnswerBtn > span:hover {
+    color: rgb(252, 55, 55);
+    font-weight: 700;
+}
