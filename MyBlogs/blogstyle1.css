@@ -25,7 +25,8 @@ a:hover {
 
 .text-container {
     padding: 15px;
-    margin: 15px;
+    margin: auto;
+    width: 500px;
 }
 
 .text-container > p {
