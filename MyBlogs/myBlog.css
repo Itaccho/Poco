@@ -3,6 +3,16 @@ header {
     color: #fff;
     padding: 10px;
 }
+a {
+    background-color: rgb(119, 63, 26);
+    color: rgb(230, 224, 224);
+    padding: 5px 15px;
+    margin: 10px 0;
+    user-select: none;
+}
+a:hover {
+    color: rgb(241, 191, 252);
+}
 .iblock {
     display: inline-block;
     vertical-align: top;
