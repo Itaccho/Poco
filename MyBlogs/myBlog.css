@@ -13,6 +13,11 @@ a {
 a:hover {
     color: rgb(241, 191, 252);
 }
+
+li {
+    margin-bottom: 30px;
+}
+
 .iblock {
     display: inline-block;
     vertical-align: top;
