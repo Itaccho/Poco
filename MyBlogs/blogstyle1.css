@@ -5,6 +5,7 @@ header {
 }
 #forHome {
     margin-top: 10px;
+    color: rgb(6, 6, 114);
 }
 
 a {
@@ -23,12 +24,6 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.text-container {
-    padding: 15px;
-    margin: auto;
-    width: 500px;
-}
-
 .text-container > p {
     padding: 10px 15px;
     line-height: 28px;
@@ -40,6 +35,9 @@ ul {
     background-color: rgb(242, 242, 242);
     padding: 20px 25px;
 }
+.blogsLists > li {
+    line-height: 40px;
+}
 
 @media screen and (min-width: 671px) {
     .iblock {
@@ -50,5 +48,24 @@ ul {
     pre {
         font-size: 18px;
         font-family: sans-serif;
+    }
+    .text-container {
+        padding: 15px;
+        margin: auto;
+        width: 60%;
+        font-size: 16px;
+    }
+    .text-container > p:hover {
+        border: chocolate 2px dashed;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .text-container {
+        padding: 10px;
+        margin: 5px;
+        width: 250px;
+        font-size: 12px;
     }
 }
