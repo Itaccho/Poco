@@ -1,0 +1,164 @@
+body {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: underline black;
+    color: brown;
+}
+a:hover {
+    color: rgb(214, 61, 61);
+}
+
+li {
+    list-style: none;
+    padding: 15px 10px;
+}
+li:hover {
+    background-color: rgb(252, 232, 207);
+}
+
+.grammarLists > p {
+    padding: 10px;
+    border: rgb(12, 34, 73) solid 2px;
+}
+
+tr {
+    margin-bottom: 5px;
+    border: #333 1px solid;
+}
+th {
+    padding: 3px 4px;
+    border: solid 1px black;
+}
+td {
+    border: rgb(2, 2, 124) solid 1px;
+    padding: 4px 6px;
+}
+
+
+h1 {
+    margin: 2px 25px 5px 3px;
+}
+
+h2 {
+    border: cornflowerblue solid 1px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+h4 {
+    border-bottom: darkblue solid 2px;
+    padding: 2px;
+    margin-top: 70px;
+}
+
+pre {
+    font-size: 16px;
+    line-height: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.grammar-explain-container > li {
+    color: darkgreen;
+}
+
+.k {
+    font-size: 18px;
+    color: rgb(48, 47, 37);
+    border: darkmagenta solid 2px;
+    border-radius: 10px;
+}
+
+.nexttoPages > p {
+     display: inline-block;
+     margin: 15px;
+}
+
+#gototop {
+    margin: 50px 30px;
+    max-width: 100px;
+    font-size: 12px;
+    border: none;
+}
+
+footer {
+    background-color: rgb(248, 136, 95);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.footernodes > p {
+    margin: 20px 30px;
+    color: snow;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 910px) {
+    header {
+        border-bottom: coral solid 10px;
+        padding-bottom: 15px;
+    }
+
+    .right-border {
+        border-right: rgba(7, 7, 231, 0.911) solid 2px;
+        padding: 10px;
+    }
+
+    h1 {
+        border-bottom: coral solid 10px;
+    }
+
+    .headerTab > li {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .grammar-explain {
+        background-color: rgb(228, 222, 222);
+    }
+
+    .containers {
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px 10px;
+        width: fit-content;
+    }
+
+    .right-border {
+        width: 220px;
+    }
+
+    .footernodes {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 20px;
+    }
+    .footernodes > p {
+        font-size: 13px;
+    }
+    #open {
+        display: none;
+        max-width: 50px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    #headerTabOpen {
+        display: none;
+    }
+
+    #open {
+        max-width: 60px;
+        border: rgb(12, 34, 73) solid 1px;
+        border-radius: 30px;
+        text-align: center;
+        user-select: none;
+    }
+
+    .text-wrapper {
+        margin: 30px 0 15px 2px;
+        border-top: rgba(7, 7, 231, 0.911) solid 5px;
+    }
+}
