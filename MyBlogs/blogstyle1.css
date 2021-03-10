@@ -68,5 +68,6 @@ ul {
     
     .blogsLists > li {
     line-height: 90px;
+    padding: 20px;
 }
 }
