@@ -121,4 +121,5 @@ footer {
 .footernodes > p {
   background-color: rgb(21, 184, 6);
   color: #fff;
+  padding: 2px 5px;
 }
