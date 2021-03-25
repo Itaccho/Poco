@@ -67,7 +67,8 @@ p {
     background-color: rgba(065, 105, 255, 0.9);
     box-shadow: #0000ff 2px 3px;
     width: fit-content;
-    padding: 5px 10px;
+    padding: 3px 7px;
+    margin: 0 2px;
   }
   .learnMore:hover {
     background-color: rgba(065, 105, 255, 0.6);
@@ -79,6 +80,9 @@ p {
     box-shadow: none;
   }
 
+  .MyTodoApp {
+    margin: 40px;
+  }
   .todosite {
     background-color: rgba(38, 156, 8, 0.9);
     box-shadow: #025c15 2px 3px;
