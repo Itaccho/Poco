@@ -29,9 +29,7 @@
           this.newItem = '';
         },
         deleteItem: function(index) {
-          if (confirm('are you sure?')) {
-            this.todos.splice(index, 1);
-          }
+          this.todos.splice(index, 1);
         },
         purge: function() {
           if (!confirm('delete finished?')) {
