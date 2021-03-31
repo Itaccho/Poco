@@ -1,0 +1,52 @@
+@media screen and (min-width: 701px) {
+
+   .contain {
+       margin-top: 40px;
+       min-height: 500px;
+       background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
+       background-size: 98%;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .contain {
+       margin-top: 40px;
+       min-height: 300px;
+       background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
+       background-size: 98%;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+}
+
+#TodayTask h1 {
+   font-weight: 600;
+   font-size: 16px;
+   border-bottom: 1px solid #ddd;
+   padding: 16px 0;
+}
+
+#TodayTask li {
+   line-height: 1.5;
+   list-style: none;
+}
+
+#TodayTask input[type="text"] {
+   padding: 2px;
+}
+
+#TodayTask ul {
+   padding: 0;
+   list-style: none;
+}
+
+#TodayTask li > span.done {
+   text-decoration: line-through;
+   color: #bbb;
+}
+
+#TodayTask h1 > button {
+   float: right;
+}

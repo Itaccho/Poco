@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every Month Tasks</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAb/
+                cA/wAvAAq/HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERAREREREREREBERAAAAEREQEREAAAAQERAREBERABEBEBEBEREAERAQEBEREQASICAgIiIiACIiAAIiAAAAIAAAAAAAAAAiIiAiIiIiIiIiICAAIiIiIiIiICAiIiIiIiIgACIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/everyMonth.css">
+</head>
+<body>
+    <h1>Every Month Tasks</h1>
+<div class="contain">
+    <div id="password" class="password-contain">
+        <form name="pass">
+           <p>password?</p>
+           <input type="password" name="input1">
+        </form>
+        <p id="click">Click here and enter 送信</p>
+     </div>
+
+    <div id="showContents">
+    <div id="EveryMonthTasks" class="container" v-cloak>
+        <p>Hello {{ name.toUpperCase() }}!</p>
+        <p><input type="text" v-model="name"></p>
+        <br>
+        <h2>
+            My EveryMonth ToDo Lists
+            <button @click = "purge">Purge</button> <!--purge method-->
+        </h2>
+        <span class="info">({{ remaining.length }}/{{ EveryMonthtodos.length}})</span>
+
+        <ul v-if = "EveryMonthtodos.length">
+            <li v-for = "(EveryMonthtodo, index) in EveryMonthtodos">
+            <input type="checkbox" v-model = "EveryMonthtodo.isDone">
+            <span :class = "{done: EveryMonthtodo.isDone}">{{ EveryMonthtodo.title }}</span>
+            <span @click = "deleteItem(index)" class="command">[x]</span>
+            </li>
+        </ul>
+        <ul v-else = "!EveryMonthtodos.length">
+            <li>Nothing to do anymore!</li>
+        </ul>
+        <form @submit.prevent = "addItem">
+            <input type="text" v-model = "newItem">
+            <input type="submit" value="Add">
+        </form>
+    </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/everymonth.js"></script>
+    <script src="js/pass.js"></script>
+</body>
+</html>
