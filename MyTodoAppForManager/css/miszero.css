@@ -1,0 +1,45 @@
+body {
+   user-select: none;
+}
+
+a {
+   border-bottom: 2px rgb(255, 60, 0);
+   color: rgb(35, 150, 12);
+   font-weight: bold;
+}
+
+.lists-container li {
+   margin-bottom: 15px;
+}
+
+.formcontainer {
+   background-color: azure;
+   margin: 20px auto;
+   padding: 30px;
+}
+
+#countPoints {
+   background-color: blanchedalmond;
+   border: 2px black;
+   border-radius: 8px;
+   box-shadow: 3px 3px rgb(185, 185, 185);
+   padding: 8px 15px;
+   width: fit-content;
+   margin: 10px 20px;
+   cursor: pointer;
+}
+#countPoints:active {
+   position: relative;
+   box-shadow: none;
+   top: 3px; left: 3px;
+}
+
+.search-container {
+   background-color: burlywood;
+   padding: 15px 20px;
+   margin: 100px 10%;
+}
+
+#countIcan {
+   margin: 130px 70px;
+}
