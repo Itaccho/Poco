@@ -4,7 +4,7 @@
     var vm = new Vue({
       el: '#TodayTask',
       data: {
-        name: '',
+        name: 'sho',
         newItem: '',
         todaysTodos: []
       },
