@@ -102,3 +102,8 @@ h2 {
 .back a:hover {
    color: rgb(175, 172, 172);
 }
+
+.links a {
+   border: violet 2px solid;
+   padding: 2px;
+}
