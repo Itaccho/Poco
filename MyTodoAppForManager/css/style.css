@@ -109,3 +109,15 @@ h2 {
    color: indianred;
    text-decoration: none;
 }
+
+@media screen and (max-width: 710px) {
+   .links a {
+      display: block;
+      width: fit-content;
+      border: violet 2px solid;
+      padding: 2px;
+      margin: 10px 15px;
+      color: indianred;
+      text-decoration: none;
+   }
+}
