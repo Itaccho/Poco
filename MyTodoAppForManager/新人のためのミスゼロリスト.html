@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>新人のためのミスゼロリスト</title>
+   <link rel="stylesheet" href="css/miszero.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   <script src="../quicksearch-master/src/jquery.quicksearch.js"></script>
+</head>
+<body>
+   <h1>新人のためのミスゼロリスト</h1>
+
+   <h2>どうしたらミスのない仕事ができるのか</h2>
+   <p>なぜミスが起きて、どうすれば同じミスを繰り返さなくても済むのか　を考え対策すること</p>
+   <p>良い習慣を続けること</p>
+
+   <div class="search-container">
+      <p>文字で検索</p>
+      <input id="keyword" type="text" />
+      <ul id="info"></ul><!--検索結果一覧がここに表示される-->
+   </div>
+
+   <form name="f1" class="formcontainer">
+   <h4>社会人の3つの基本行動</h4>
+   <ul>
+      <li><input type="checkbox" name="check">　場を清める（整理整頓）</li>
+      <li><input type="checkbox" name="check">　時を守る（時間厳守）</li>
+      <li><input type="checkbox" name="check">　挨拶を徹底する（コミュニケーション）</li>
+   </ul>
+
+   <h3>内容</h3>
+   <ol class="lists-container" id="list">
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> 自分をご機嫌にする工夫を持とう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> 朝は余裕を持って出社しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> 朝は元気な挨拶からスタート</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> カバンの中を毎日整理しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> 物や道具の準備やメンテナンスをしよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> 常にメモをとる習慣を持とう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter1">chapter1</span> 「ま、いいか」を口癖にしない</a></li><br>
+
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> 相手の言葉の裏にある真意を理解しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> ヒアリポイントに気づいて、再発防止の手を打とう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> 仕事量のムラに気づいたら、平準化しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> 変化の波に乗り、改善提案をしよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> ダブルチェックの方法を工夫しよう </a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> ミスの根本にある真因を突き止めよう </a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter2">chapter2</span> 脱パターン化を仕事の中に取り入れよう</a></li><br>
+
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 1日の山場を作り、ダラダラ仕事をなくす</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 終了時間の目標設定をして達成感を味わおう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 前倒し期限を設けてギリギリにならないようにしよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 割り込み仕事に振り回されない様にしよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 「やること」と「やらないこと」を決めよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 目的を理解した上で仕事に取り掛かろう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> 1から考える仕事は2割考えたところで上司に確認しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter3">chapter3</span> ゴールから逆算して仕事に取り掛かろう</a></li><br>
+      
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> 机のうえを整えよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> フォルダや書類ボックスで流れを「見える化」しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> 1日1週間1カ月の仕事の流れを確認しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> 自分の動線上に今日と今週ののtodoを見える化させる</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> 自分に甘い後回し癖はやめよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> 上司からの指示を「はきもの」で見える化しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter4</span> メモの二次加工で確実に行動に移そう</a></li><br>
+
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> 聞き間違い防止の復唱</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> 電話対応時の確認事項を明文化</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> 情報のありかや探し方を体型化させる</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> クレームは相手の怒りの根っこを理解して対応しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> 書類を贈る際、わかりにくい箇所に付箋を貼ろう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> 発送時には5つのチェックポイントを確認しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter5</span> メールの確認は時間を決めて定期的にしよう</a></li><br>
+
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> 情報は抱え込まずに発信しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> 情報を歪曲しないよう正しく伝えよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> タイミングのよい報連相でミスをなくそう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> PREP法でわかりやすく伝えよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> 自分の思い込みによるミスをなくそう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> ヒヤリハットは早めに報告しよう・マイナスな情報はなるべく早く伝えよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter6</span> 上司のスケジュールを把握しよう</a></li><br>
+
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 「気づく➡わかる➡できる」ように見える化しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 毎日、毎週、毎月、毎年の定型業務（ルーティーン）を見える化しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 仕事の進捗を見える化しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 仕事の出来栄え基準をはっきりさせよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 業務の全体像を見える化しよう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 退社時間をはっきりさせて残業を減らそう</a></li>
+      <li><input type="checkbox" name="check">　<a href="#"><span class="chapter">chapter7</span> 集中タイムを探す</a></li>
+   </ol>
+   </form>
+
+   <div id="countIcan">
+      <p id="countPoints">check counted</p>
+      <p>できるようになったことは　<span id="showPoints"></span> / <span id="maxPoints"></span></p>
+   </div>
+
+   <script>
+      'use strict'; {
+    let count = 0;
+    var max = f1.check.length;
+    document.getElementById('maxPoints').innerHTML = max;
+    if (count = 0) {
+    }
+    document.getElementById('countPoints').onclick = function() {
+        for (var i = 0; i < max; i++) {
+            if (document.f1.check[i].checked == true) {
+                count++;
+            }
+        }
+        document.getElementById('showPoints').innerHTML = count;
+    }
+}
+   </script>
+   <script src="js/search.js"></script>
+</body>
+</html>
