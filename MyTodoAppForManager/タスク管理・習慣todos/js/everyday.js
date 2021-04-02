@@ -46,4 +46,50 @@
         }
       }
     });
+    
+    var vum = new Vue({
+      el: '#EveryMorningTask',
+      data: {
+        name: '',
+        newItem: '',
+        EveryMorningtodos: []
+      },
+      watch: {
+        EveryMorningtodos: {
+          handler: function() {
+            localStorage.setItem('EveryMorningtodos', JSON.stringify(this.EveryMorningtodos));
+          },
+          deep: true
+        }
+      },
+      mounted: function() {
+        this.EveryMorningtodos = JSON.parse(localStorage.getItem('EveryMorningtodos')) || [];
+      },
+      methods: {
+        addItem: function() {
+          var item = {
+            title: this.newItem,
+            isDone: false
+          };
+          this.EveryMorningtodos.push(item);
+          this.newItem = '';
+        },
+        deleteItem: function(index) {
+          this.EveryMorningtodos.splice(index, 1);
+        },
+        purge: function() {
+          if (!confirm('delete finished?')) {
+            return;
+          }
+          this.EveryMorningtodos = this.remaining;
+        }
+      },
+      computed: {
+        remaining: function() {
+          return this.EveryMorningtodos.filter(function(EveryMorningtodo) {
+            return !EveryMorningtodo.isDone;
+          });
+        }
+      }
+    });
   })();
