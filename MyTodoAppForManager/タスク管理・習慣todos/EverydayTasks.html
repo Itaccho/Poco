@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/everyday.css">
 </head>
 <body>
-    <h1>Everyday Tasks</h1>
+    <h1>　Everyday Tasks</h1>
 <div class="contain">
     <div id="password" class="password-contain">
         <form name="pass">
@@ -21,10 +21,33 @@
         <p id="click">Click here and enter 送信</p>
      </div>
 
-    <div id="showContents">
+    <div id="showContents"><br>
+        <div id="EveryMorningTask" class="container" v-cloak>
+            <h2>
+                My Every Morning ToDo Lists
+                <button @click = "purge">Purge</button> <!--purge method-->
+            </h2>
+            <span class="info">({{ remaining.length }}/{{ EveryMorningtodos.length}})</span>
+    
+            <ul v-if = "EveryMorningtodos.length">
+                <li v-for = "(EveryMorningtodo, index) in EveryMorningtodos">
+                <input type="checkbox" v-model = "EveryMorningtodo.isDone">
+                <span :class = "{done: EveryMorningtodo.isDone}">{{ EveryMorningtodo.title }}</span>
+                <span @click = "deleteItem(index)" class="command">[x]</span>
+                </li>
+            </ul>
+            <ul v-else = "!EveryMorningtodos.length">
+                <li>Nothing to do anymore!</li>
+            </ul>
+            <form @submit.prevent = "addItem">
+                <input type="text" v-model = "newItem">
+                <input type="submit" value="Add">
+            </form>
+        </div><br>
+
     <div id="EverydayTask" class="container" v-cloak>
         <h2>
-            My EverydayToDo Lists
+            My Everyday ToDo Lists
             <button @click = "purge">Purge</button> <!--purge method-->
         </h2>
         <span class="info">({{ remaining.length }}/{{ Everydaytodos.length}})</span>
@@ -43,7 +66,7 @@
             <input type="text" v-model = "newItem">
             <input type="submit" value="Add">
         </form>
-    </div>
+    </div><br>
     </div>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
