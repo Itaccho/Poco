@@ -1,0 +1,52 @@
+.nodotinUls > li {
+   padding: 6px 10px;
+   list-style: none;
+}
+
+.container {
+   margin: auto;
+   max-width: 500px;
+   padding: 30px 45px;
+   border: 2px solid rgb(0, 110, 255);
+}
+
+.attrb a {
+   background-color: rgb(104, 15, 15);
+   color: white;
+}
+.attrb a:hover {
+   background-color: rgb(224, 88, 88);
+}
+
+.underbarline {
+   border-bottom: solid 4px rgba(255, 0, 0, 0.945);
+   width: fit-content;
+}
+
+.questions {
+   margin-top: 60px;
+}
+.questions > p {
+   margin-top: 90px;
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+
+#submitForm {
+   background-color: rgb(125, 155, 125);
+   width: fit-content;
+   padding: 7px 28px;
+   text-align: center;
+   margin-left: 50px;
+}
+#submitForm:hover {
+   background-color: rgb(175, 232, 175);
+}
+
+.thankyoupage {
+   background-color: rgb(191, 255, 94);
+   padding: 30px 50px;
+}
