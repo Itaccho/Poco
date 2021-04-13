@@ -29,7 +29,7 @@
    <p>Cuestionario</p>
    <p>Tengo un permiso. Hice este cuestionario porque espero que penséis que mis clases se conviertan mejor, y más estudiantes sientan que mis clases sean buenas. El cuestionario dura más o menos 10 minutos. Por favor respuéstalo.</p>
 
-   <form name="sendmail" method="post" action="maito:shonesluxores@gmail.com?subject=アンケートの回答" onSubmit="return check()" id="sendmail" enctype="multipart/form-data">
+   <form name="sendmail" method="post" action="maito:shonesluxores@gmail.com?subject=アンケートの回答" id="sendmail" enctype="multipart/form-data">
       <div class="questions">
          <p>メールアドレス 你的电子邮件地址　tu correro electrónico</p>
          <input type="text" name="mailaddr"><br>
@@ -94,11 +94,7 @@
 </div>
    <script type="text/javascript" src="main.js"></script>
    <script type="text/javascript">
-   function check() {
-      if (window.confirm("送信しますか？ Are you sure you'll submit?")) {
-         document.getElementById('sendmail').action = "thankyou.html";
-      }
-   }
+   
    </script>
 </body>
 </html>
