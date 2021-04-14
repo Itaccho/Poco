@@ -29,71 +29,64 @@
    <p>Cuestionario</p>
    <p>Tengo un permiso. Hice este cuestionario porque espero que penséis que mis clases se conviertan mejor, y más estudiantes sientan que mis clases sean buenas. El cuestionario dura más o menos 10 minutos. Por favor respuéstalo.</p>
 
-   <form name="sendmail" method="post" action="maito:shonesluxores@gmail.com?subject=アンケートの回答" id="sendmail" enctype="multipart/form-data">
+  <form name="sendmail" method="post" action="mailto:ittatcho@gmail.com?To=ittatcho@gmail.com?Subject=アンケートの回答" enctype="text/plain" onsubmit="return check();">
       <div class="questions">
-         <p>メールアドレス 你的电子邮件地址　tu correro electrónico</p>
-         <input type="text" name="mailaddr"><br>
-     <p><span class="Qnumbers">1.</span> あなたの第一言語を教えてください　请告诉我你的母语 Tu lengua materna</p>
+     <p><span class="Qnumbers">1.</span> あなたの第一言語を教えてください</p>
      <select name="yourFLang" id="yourFLang">
-        <option value="英語">English</option>
-        <option value="中国語">中文</option>
-        <option value="スペイン語">español</option>
-        <option value="それ以外">上記以外の言語 Other</option>
+        <option value="英語">英語</option>
+        <option value="中国語">中国語</option>
+        <option value="スペイン語">スペイン語</option>
+        <option value="それ以外">上記以外の言語</option>
      </select>
-     <p><span class="Qnumbers">2.</span> あなたの日本語レベル（だいたいでいい）を教えてください　你的日语水平　Tu nivel de japonés</p>
+     <p><span class="Qnumbers">2.</span> あなたの日本語レベル（だいたいでいい）を教えてください</p>
      <select name="yourlevel" id="yourLevel">
-        <option value="初級">初級（ほぼゼロから）(0 ~ N5)</option>
-        <option value="初中級（ほとんど話せない）">初中級（ほとんど話せない）<br>(N5 N4)</option>
-        <option value="中級（簡単な言葉ならすぐに言える）">中級（簡単な言葉ならすぐに言える）<br>(N3)</option>
-        <option value="中上級（言いたいこと半分以上を日本語で表現できる）">中上級（言いたいこと半分以上を日本語で表現できる）<br>(N2)</option>
-        <option value="上級（ほとんど日本語でコミュニケーションがとれる）">上級（ほとんど日本語でコミュニケーションがとれる）<br> (N1)</option>
+        <option value="初級">初級（ほぼゼロから）</option>
+        <option value="初中級（ほとんど話せない）">初中級（ほとんど話せない）</option>
+        <option value="中級（簡単な言葉ならすぐに言える）">中級（簡単な言葉ならすぐに言える）</option>
+        <option value="中上級（言いたいこと半分以上を日本語で表現できる）">中上級（言いたいこと半分以上を日本語で表現できる）</option>
+        <option value="上級（ほとんど日本語でコミュニケーションがとれる）">上級（ほとんど日本語でコミュニケーションがとれる）</option>
      </select>
 
-     <p><span class="Qnumbers">3.</span> 私(Sho)の授業を受けたいと思った理由　と　日本語に関する悩みを教えてください。　为什么你决定上我的课程？当你学习日语时常常遇到的烦恼是什么？　Cuéntame por qué te decidiste a tomar mis clases y tus problemas sobre el aprendizaje de japonés.</p>
+     <p><span class="Qnumbers">3.</span> 私(Sho)の授業を受けたいと思った理由　と　日本語に関する悩みを教えてください。</p>
      <textarea name="reason" id="" cols="30" rows="4"></textarea>
-     <p><span class="Qnumbers">4.</span> 私の授業の質・教え方などは、あなたの期待していたとおりでしたか？　我课程的品质和教法是和你期待的一样的吗？　¿Qué te pareció mi clase?</p>
+     <p><span class="Qnumbers">4.</span> 私の授業の質・教え方などは、あなたの期待していたとおりでしたか？</p>
      <select name="satis" id="satis" class="pointer">
-        <option value="期待以上だった">期待以上だった！！<br>　超越了我的期待！　Mejor que yo pensaba</option>
-        <option value="期待していた通りに良かった！">期待していた通りに良かった！<br>　像我期待的一样　Bien</option>
-        <option value="期待以下だった">期待以下だった<br>　比我期待的不好　peor que yo pensaba</option>
+        <option value="期待以上だった">期待以上だった！！</option>
+        <option value="期待していた通りに良かった！">期待していた通りに良かった！</option>
+        <option value="期待以下だった">期待以下だった</option>
      </select>
-     <p><span class="Qnumbers">5.</span> レッスンの内容と教え方は良かったですか？<br>　　¿Qué te parecieron el contenido de clase y mis maneras de enseñanza?</p>
+     <p><span class="Qnumbers">5.</span> レッスンの内容と教え方は良かったですか？</p>
       <select name="evaluation" id="evaluation">
-        <option value="とても良かった">とても良かった<br>　非常好　Muy bien!</option>
-        <option value="そこそこ良かった">そこそこ良かった<br>　还好　Bien</option>
-        <option value="ふつうだった">ふつうだった<br>　普通　Un poco bien</option>
-        <option value="あまり良くなかった">あまり良くなかった<br>　不太好　un poco mal</option>
+        <option value="とても良かった">とても良かった</option>
+        <option value="そこそこ良かった">そこそこ良かった</option>
+        <option value="ふつうだった">ふつうだった</option>
+        <option value="あまり良くなかった">あまり良くなかった</option>
       </select>
-     <p><span class="Qnumbers">6.</span> もっとも練習したい項目はなんですか？　<br>　¿Qué cosas de japonés quieres fortalecer?</p>
-      <input type="checkbox" name="vocab" value="単語（語彙）">単語（語彙）　Vocabulaio<br>
-      <input type="checkbox" name="gramm" value="文法">文法　Gramática<br>
-      <input type="checkbox" name="covst" value="会話">会話　Conversación<br>
-      <input type="checkbox" name="listen" value="聴き取り">聴き取り 听力　Entendimiento aiditivo<br>
-      <input type="checkbox" name="yomi" value="発音・漢字などの読み方">発音・漢字などの読み方　Pronunciación<br>
-      <input type="checkbox" name="translationRenshu" value="翻訳の練習・自然な日本語を使う練習">翻訳の練習・自然な日本語を使う練習　Traducir el texto español al japonés<br>
-      <input type="checkbox" name="diary" value="作文・日記">作文・日記　Escribir textos o diarios en japonés<br>
-      <input type="checkbox" name="reading" value="読解">読解　leer textos<br>
-      <input type="checkbox" name="others" value="敬語・その他">敬語・その他　Keigo o los otros<br>
+     <p><span class="Qnumbers">6.</span> もっとも練習したい項目はなんですか？</p>
+      <input type="checkbox" name="vocab">単語（語彙）<br>
+      <input type="checkbox" name="gramm" id="">文法<br>
+      <input type="checkbox" name="covst" id="">会話<br>
+      <input type="checkbox" name="listen" id="">聴き取り<br>
+      <input type="checkbox" name="yomi" id="">発音・漢字などの読み方<br>
+      <input type="checkbox" name="translationRenshu" id="">翻訳の練習・自然な日本語を使う練習<br>
+      <input type="checkbox" name="diary" id="">作文・日記<br>
+      <input type="checkbox" name="reading" id="">読解<br>
+      <input type="checkbox" name="others" id="">敬語・その他<br>
      
-     <p><span class="Qnumbers">7.</span> 改善してほしい点を1つ以上教えてください。按一个以上我要改善的点。　Marca más de una sobre que quieres que yo mejore en clases virtuales.</p>
-     <input type="checkbox" name="" id="impro_select1" value="先生の話し方・態度">先生の話し方・態度　las posturas y la actitud del profesor<br>
-     <input type="checkbox" name="" id="impro_select2" value="もっと優しく教えてほしい">もっと優しく教えてほしい　　El profesor es demasiado serio<br>
-     <input type="checkbox" name="" id="impro_select3" value="教える内容をおもしろくしてほしい">教える内容をおもしろくしてほしい　　Los contenidos de clases<br>
-     <input type="checkbox" name="" id="impro_select4" value="もっとわかりやすく教えてほしい">もっとわかりやすく教えてほしい　　La enseñanza del profesor<br>
-     <input type="checkbox" name="" id="impro_select5" value="もっとゆっくり教えてほしい">もっとゆっくり教えてほしい　　La velocidad de la enseñanza<br>
-     <input type="checkbox" name="" id="impro_select6" value="先生からもっと元気づけて自信をつけてもらいたい">先生からもっと元気づけて自信をつけてもらいたい　　Quiero que el profesor me anime más<br>
-     <input type="checkbox" name="" id="impro_select7" value="宿題がほしい / 少ない">宿題がほしい / 少ない　　Las tareas<br>
-     <input type="checkbox" name="" id="impro_select8" value="もっとまじめに日本語をおしえてほしい">もっとまじめに日本語をおしえてほしい　　Quiero que el profesor enseñe más seriamente<br>
-     <input type="checkbox" name="" id="impro_select9" value="特にない">特にない　　Nada especial<br>
-     その他の場合は下にその詳細を教えてください。　　Escribe abajo si tienes otras opiniones, por favor.
+     <p><span class="Qnumbers">7.</span> 改善してほしい点など、ご意見をください。</p>
      <textarea name="improvement" id="improvement" cols="30" rows="4"></textarea>
-     <p>質問はこれで以上です。下の「送信」ボタンを押して、アンケートの送信をお願いします。<br>Cuando has terminado de llenar todos en este cuestinario, pulsa el botón 「送信」.</p><span>     </span>
+     <p>質問はこれで以上です。下の「送信」ボタンを押して、アンケートの送信をお願いします。</p><span>     </span>
      <input type="submit" value="送信">
+     <!-- <p id="submit">送信</p> -->
        </div>
    </form>
 </div>
-   <script type="text/javascript" src="main.js"></script>
    <script type="text/javascript">
+     function check() {
+      alert("Are you sure you'll submit?");
+      sendmail.action = "index.html";
+     }
+   </script>
    
    </script>
 </body>
