@@ -58,7 +58,7 @@ $(function() {
             });
 
             for (var i = 0; i < searchResult.length; i++) {
-                $('<span>').text(searchResult[i]).appendTo('#search-result__list');
+                $('<li>').text(searchResult[i]).appendTo('#search-result__list');
             }
 
             hitNum = '<span>Result</span>:' + searchResult.length;
