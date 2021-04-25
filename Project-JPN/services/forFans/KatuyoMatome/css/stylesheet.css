@@ -69,6 +69,10 @@ a {
     display: none;
 }
 
+.showContentPre {
+    display: none;
+}
+
 .point {
     background-color: rgb(206, 8, 8);
     color: white;
@@ -79,7 +83,8 @@ a {
 
 .pointer {
     cursor: pointer;
-    background-color: rgb(248, 236, 212);
+    color: #fff;
+    background-color: rgb(37, 141, 238);
     border-radius: 20px;
     padding: 10px 30px;
     text-align: center;
