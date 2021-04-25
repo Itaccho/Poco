@@ -60,6 +60,10 @@ p {
     color: rgb(247, 243, 243);
     margin: 10px 5px;
 }
+.vvv p:hover {
+    color: rgb(160, 194, 11);
+}
+
 .te {
     background-color: rgb(180, 255, 67);
 }
