@@ -17,6 +17,11 @@ li {
     margin: 4px 1px;
 }
 
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 .A-volver {
     background-color: rgb(63, 42, 42);
     color: #fff !important;
