@@ -92,6 +92,11 @@ a {
     min-width: 60px;
 }
 
+.pointer:hover {
+    background-color: rgb(28, 50, 92);
+    color: yellow;
+}
+
 .block > li {
     display: block;
 }
