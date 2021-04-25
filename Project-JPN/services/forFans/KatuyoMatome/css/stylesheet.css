@@ -19,7 +19,8 @@
     }
 
     #passForm {
-        margin: 130px 0 400px 560px;
+        position: absolute;
+        top: 20%; left: 35%;
     }
 
     .containers {
