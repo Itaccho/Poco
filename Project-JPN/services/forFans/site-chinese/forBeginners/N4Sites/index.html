@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/largescreen.css">
     <link rel="stylesheet" href="css/smallscreen.css">
+    <link rel="stylesheet" href="../../../../../N3Sitespage/MyTabMenu/css/search.css">
     <title>N4にほんご Poco a Poco</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAb/
-                cA/wAvAAq/HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERAREREREREREBERAAAAEREQEREAAAAQERAREBERABEBEBEBEREAERAQEBEREQASICAgIiIiACIiAAIiAAAAIAAAAAAAAAAiIiAiIiIiIiIiICAAIiIiIiIiICAiIiIiIiIgACIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+    <script src="../../../../../N3Sitespage/MyTabMenu/js-file/script.js"></script>
 </head>
 <body>
  <header>
@@ -63,7 +62,7 @@
 </div> <br>
 <div id="opa">
 <div class="content-wrapper">
-     <div class="grammarLists">
+    <div class="grammarLists">
          <p><a href="../../test_pages/N4test/test/test.html">N4的小测验</a></p>
          <h4>N4の文法</h4>
          <ul id="partLists">
@@ -83,41 +82,53 @@
              <li><a href="#part14">part14</a></li>
              <li><a href="#part15">test</a></li>
          </ul>
-     </div>
-     <div class="wenti">
-        <h2>经常问的问题</h2>
-        <p>从什么得开始学习日语？</p>
-        <p>为了学会日语要学多久？</p>
-        <p>我不会念片假名</p>
-        <p>助詞（じょし）</p>
-        <p>動詞の活用（どうしのかつよう）</p>
-      </div>
-      <div id="grammarExplain">
-          <p>文法の要素</p>
-        <ul class="grammar-explain-container">
-            <li>主語（しゅご）　＜例＞「～は」「～が」</li>
-            <li>述語（じゅつご）　＜例＞「する」「です」「ます」「だ」</li>
-            <li>名詞（めいし）　＜例＞「わたし」「国（くに）」「家（いえ）」</li>
-            <li>動詞（どうし）</li>
-            <li>目的語（もくてきご）　＜例＞「でんわを」「しごとを」</li>
-            <li>助詞（じょし）　＜例＞「は」「が」「に」</li>
-            <li>助動詞（じょどうし）　＜例＞「ます」</li>
-            <li>接続語（せつぞくご）　＜例＞「そして」「だから」「しかし」</li>
-            <li>副詞（ふくし）　＜例＞「とても」「すこし」「ちょっと」</li>
-            <li>数詞（すうし）　＜例＞「1個」「1つ」</li>
-            <li>動詞の活用形（かつようけい）　＜例＞て形　ます形　否定形</li>
-            <li>原形（げんけい）</li>
-            <li>過去形（かこけい）　＜例＞「した」　「はなした」</li>
-            <li>進行形（しんこうけい）　＜例＞「している」</li>
-            <li>受身形（うけみけい）　＜例＞「された」</li>
-        </ul>
-      </div>
+    </div>
+    <div class="search-area">
+        <h3>下の"enter a word"から　N4 の文法をさがす</h3>
+        <form>
+            <input type="text" id="search-text" placeholder="enter a word">
+        </form>
+        <div class="search-result">
+            <div class="search-result__hit-num"> <!-- ヒットした単語の個数 -->
+            </div>
+            <div id="search-result__list"> <!-- 検索され出てきた単語 -->
+            </div>
+        </div>
+    </div>
 
       <div class="wenti">
-          <h2>あなたの　にがて　を分析（ぶんせき）します</h2>
           <span id="showAccordion" class="sAccd">+</span>
           <span id="hideAccordion" class="sAccd">-</span>
           <div class="accContent">
+            <div class="wenti">
+                <h2>经常问的问题</h2>
+                <p>从什么得开始学习日语？</p>
+                <p>为了学会日语要学多久？</p>
+                <p>我不会念片假名</p>
+                <p>助詞（じょし）</p>
+                <p>動詞の活用（どうしのかつよう）</p>
+              </div>
+              <div id="grammarExplain">
+                  <p>文法の要素</p>
+                <ul class="grammar-explain-container">
+                    <li>主語（しゅご）　＜例＞「～は」「～が」</li>
+                    <li>述語（じゅつご）　＜例＞「する」「です」「ます」「だ」</li>
+                    <li>名詞（めいし）　＜例＞「わたし」「国（くに）」「家（いえ）」</li>
+                    <li>動詞（どうし）</li>
+                    <li>目的語（もくてきご）　＜例＞「でんわを」「しごとを」</li>
+                    <li>助詞（じょし）　＜例＞「は」「が」「に」</li>
+                    <li>助動詞（じょどうし）　＜例＞「ます」</li>
+                    <li>接続語（せつぞくご）　＜例＞「そして」「だから」「しかし」</li>
+                    <li>副詞（ふくし）　＜例＞「とても」「すこし」「ちょっと」</li>
+                    <li>数詞（すうし）　＜例＞「1個」「1つ」</li>
+                    <li>動詞の活用形（かつようけい）　＜例＞て形　ます形　否定形</li>
+                    <li>原形（げんけい）</li>
+                    <li>過去形（かこけい）　＜例＞「した」　「はなした」</li>
+                    <li>進行形（しんこうけい）　＜例＞「している」</li>
+                    <li>受身形（うけみけい）　＜例＞「された」</li>
+                </ul>
+              </div>
+            <h2>あなたの　にがて　を分析（ぶんせき）します</h2>
             <p>にがては このリストのなかに ありますか？もうすこし しりたいなら<a href="#contact">チャットで</a> しつもんして ください。</p>
 
             <ol>
@@ -133,8 +144,10 @@
           </div>
       </div>
 </div>
+
 <div class="content-wrapper">
  <h2>N4の文法</h2>
+ <section class="content active target-area">
  <div class="back-color-white">
      <h3 id="part1"><a href="N4grammar/part1/index.html">part1</a></h3>
      <p>在日本的节日</p>
@@ -250,6 +263,7 @@
     <h3 id="part13"><a href="N4grammar/part13/index.html">part13</a></h3>
     <p>「もし時間があったら、～」</p>
     <p>「～かどうか」</p>
+    <p>文の中にある疑問詞</p>
     <p>聞き手への希望：形容詞＋「なるといいですね」</p>
     <p>話し手の希望：「～なあ」</p>
     <p>卵（たまご）にはしょうゆをかけてお召し上がりください</p>
@@ -279,7 +293,7 @@
  </div> -->
  <a href="#top" id="gototop">回到顶部</a>
 
- <div class="back-color-white">
+ <div>
      <h3>学完了N4，请记住这些句子</h3>
      <ul>
          <li>宿題（しゅくだい）ができました。</li>
@@ -294,6 +308,7 @@
          <li>また、よろしくおねがいします。</li>
      </ul>
  </div>
+ </section>
 </div>
 </div><!-- opacity -->
 
