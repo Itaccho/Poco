@@ -20,6 +20,12 @@ p {
     background-color: rgb(248, 247, 232);
 }
 
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: normal;
+}
+
 .backWhite {
     background-color: rgb(248, 241, 241);
     padding: 5px 10px;
