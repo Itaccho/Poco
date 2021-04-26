@@ -3,6 +3,9 @@ a {
     border-bottom: rgb(243, 45, 10) solid 1px;
     color: rgb(6, 32, 24);
 }
+a:hover {
+    color: rgb(138, 26, 6);
+}
 
 #tytle {
     bottom: 15px;
@@ -15,7 +18,7 @@ header {
 }
 
 body {
-    background-color: rgb(253, 142, 175);
+    background-color: rgb(218, 151, 231);
 }
 
 div {
@@ -54,8 +57,16 @@ div {
 }
 
 .sAccd {
+    background-color: rgb(139, 67, 0);
+    padding: 5px 45px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 12px;
     color: rgb(223, 222, 217);
     cursor: pointer;
+}
+.sAccd:hover {
+    background-color: rgb(197, 118, 44);
 }
 
 #hideAccordion, .accContent {
