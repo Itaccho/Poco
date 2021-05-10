@@ -70,8 +70,8 @@ ul {
 
 ul > li {
     width: fit-content;
-    height: 65px;
-    font-size: 24px;
+    height: 85px;
+    font-size: 18px;
 }
 
 ul > li:hover {
