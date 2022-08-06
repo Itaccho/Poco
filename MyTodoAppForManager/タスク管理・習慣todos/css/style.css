@@ -82,26 +82,3 @@ h2 {
     width: fit-content;
     margin: 20px;
 }
-
-@media screen and (min-width: 701px) {
-    .password-contain {
-        background-color: rgba(255, 255, 255, 0.748);
-        position: absolute;
-        top: 150px; left: 33%;
-        border: #bbb 1px solid;
-        width: fit-content;
-        padding: 5%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .password-contain {
-        background-color: rgba(255, 255, 255, 0.748);
-        position: relative;
-        margin: auto;
-        top: 100px;
-        border: #bbb 1px solid;
-        width: fit-content;
-        padding: 5%;
-    }
-}
