@@ -11,6 +11,9 @@ h1 {
     padding: 8px 10px;
 }
 
+[v-cloak] {
+    display: none;
+}
 
 #click {
     background-color: rgb(15, 167, 7);
