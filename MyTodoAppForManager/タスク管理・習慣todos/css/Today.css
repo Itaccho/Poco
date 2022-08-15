@@ -1,4 +1,4 @@
-// background
+/* background contain */
 @media screen and (min-width: 701px) {
 
    .contain {
@@ -9,10 +9,9 @@
 @media screen and (max-width: 700px) {
    .contain {
        min-height: 750px;
-       
    }
 }
-// background contain
+/* background contain */
 .contain {
    margin-top: 40px;
    background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
