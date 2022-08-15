@@ -1,25 +1,26 @@
+// background
 @media screen and (min-width: 701px) {
 
    .contain {
-       margin-top: 40px;
-       min-height: 700px;
-       background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
-       background-size: 98%;
-       background-repeat: no-repeat;
-       background-position: center;
+       min-height: 1200px;
    }
 }
 
 @media screen and (max-width: 700px) {
    .contain {
-       margin-top: 40px;
-       min-height: 600px;
-       background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
-       background-size: 98%;
-       background-repeat: no-repeat;
-       background-position: center;
+       min-height: 750px;
+       
    }
 }
+// background contain
+.contain {
+   margin-top: 40px;
+   background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
+   background-size: 98%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
 
 #TodayTask h1 {
    font-weight: 600;
