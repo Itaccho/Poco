@@ -2,7 +2,7 @@
 
    .contain {
        margin-top: 40px;
-       min-height: 500px;
+       min-height: 700px;
        background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
        background-size: 98%;
        background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 @media screen and (max-width: 700px) {
    .contain {
        margin-top: 40px;
-       min-height: 300px;
+       min-height: 600px;
        background-image: url(../img/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
        background-size: 98%;
        background-repeat: no-repeat;
