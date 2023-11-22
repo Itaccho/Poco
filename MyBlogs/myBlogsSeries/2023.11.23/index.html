@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ちょこっとブログ -Poco a Poco - ittatcho</title>
+    <link rel="stylesheet" href="../../blogstyle1.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAb/
+                cA/wAvAAq/HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERAREREREREREBERAAAAEREQEREAAAAQERAREBERABEBEBEBEREAERAQEBEREQASICAgIiIiACIiAAIiAAAAIAAAAAAAAAAiIiAiIiIiIiIiICAAIiIiIiIiICAiIiIiIiIgACIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <h1 class="iblock">Poco a Poco 　- 思ったことをちょこっと書く My Blog</h1>
+        <p class="iblock" id="forHome"><a href="../../index.html">Home</a></p>
+    </header>
+
+    <div class="text-container">
+        <h1 id="title">タイトル「パスワード生成ツール！」</h1>
+        <p>ここでパスワード生成ができます。※文字列の長さは最大20文字まで。</p>
+        <form>
+            <fieldset>
+            <legend>パスワード生成ルール</legend>
+            <input type="checkbox" id="rule_numeric" checked>数字
+            <input type="checkbox" id="rule_uppercase" checked>英大文字
+            <input type="checkbox" id="rule_lowercase" checked>英小文字
+            <input type="checkbox" id="rule_symbol" checked>記号<br>
+            長さ<input type="number" id="rule_length">
+            </fieldset>
+            <p>
+            <input type="button" onclick="setPassword('passwd');" value="パスワード生成">
+            <input type="text" id="passwd">
+            </p>
+            </form>
+    </div>
+    <script>
+        let password_numeric = '1234567890';
+        let password_uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        let password_lowercase = 'abcdefghijklmnopqrstuvwxyz';
+        let password_symbol = '!#$%&~@+-*?_.';
+        
+        function genPassword(length = 20)
+        {
+            let password = '';
+            let password_base = '';
+            //生成ルールの確認
+            if (document.getElementById('rule_numeric').checked) password_base += password_numeric;
+            if (document.getElementById('rule_uppercase').checked) password_base += password_uppercase;
+            if (document.getElementById('rule_lowercase').checked) password_base += password_lowercase;
+            if (document.getElementById('rule_symbol').checked) password_base += password_symbol;
+            for (let i = 0; i < length; i++) {
+                password += password_base.charAt(Math.floor(Math.random() * password_base.length));
+            }
+            return password;
+        }
+        function setPassword(id)
+        {
+            let rule_length = document.getElementById('rule_length').value;
+            document.getElementById(id).value = genPassword(rule_length);
+        }
+        </script>
+    <!-- <ruby><rt></rt></ruby> -->
+    <br><a href="../../index.html">ブログの一覧に戻る</a>
+</body>
+</html>
